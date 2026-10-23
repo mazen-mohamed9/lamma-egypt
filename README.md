@@ -18,27 +18,27 @@
 5. **Bilingual Support (Arabic & English)**: Fully localized RTL/LTR layout with strict synchronization across all interface elements.
 
 ---
-
 ## 📦 Project Directory Structure
 ```text
 lamma-egypt/
-├── public/
 ├── src/
 │   ├── App.jsx          # Main application component & CVRPTW solver
 │   ├── main.jsx         # React entry point
 │   └── index.css        # Tailwind CSS styles & Leaflet overrides
+├── index.html           # Main HTML entry point
 ├── package.json         # Project dependencies & Vite scripts
+├── package-lock.json    # Exact dependency versions
+├── postcss.config.js    # PostCSS configuration
+├── tailwind.config.js   # Tailwind CSS configuration
 └── README.md            # Project documentation
-```
-
 ---
-
+ ```
 ## 🛠️ Local Development & Deployment
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/ammarkhedr49/Lamma-SolveThe17.git
-   cd Lamma-SolveThe17
-   ```
+ ```bash
+ git clone [https://github.com/mazen-mohamed9/lamma-egypt.git](https://github.com/mazen-mohamed9/lamma-egypt.git)
+ cd lamma-egypt
+ ```
 2. **Install dependencies**:
    ```bash
    npm install
